@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" />
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/script.js"></script>
+</head>
+
+<body>
+
+
+    <fieldset>
+        <legend>Filter Chips</legend>
+        <div id="filterChipsContainer" class="chip-group" style="display:inline-flex;">
+            <div class="chip" tabindex="-1">
+                <span>Hello, World</span>
+                <button type="button" title="Remove chip" aria-label="Remove chip"
+                    onclick="$(this).parent().remove()"><i class="material-icons">cancel</i></button>
+            </div>
+            <!-- Feed me more!  -->
+        </div>
+        <div style="display:inline-flex;">
+            <input aria-labelledby="addFilterBtn" id="addFilterTxt" type="text" placeholder="Add filter..." />
+            <button aria-label="Add filter" class="btn btn-primary" id="addFilterBtn">ADD</button>
+        </div>
+    </fieldset>
+
+
+
+    </div>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
